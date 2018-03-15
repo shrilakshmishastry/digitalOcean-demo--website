@@ -21,8 +21,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="a">
-        <ul class="navbar-nav">
-          <li class="nav-item text-white mx-md-4 dropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item text-white  dropdown">
             <a href="#" class="nav-link dropdown-toggle" id="b" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Products
             </a>
@@ -34,11 +34,11 @@
               <a href="#" class="dropdown-item"><span class="fa fa-folder-o"></span>API Documentation</a>
             </div>
           </li>
-          <li href="#" class="nav-item mx-md-2 text-white">
+          <li href="#" class="nav-item text-white">
             <a href="#" class="nav-link ">Customers
             </a>
           </li>
-          <li class="nav-item text-white mx-md-2 dropdown">
+          <li class="nav-item text-white  dropdown">
             <a href="#" class="nav-link dropdown-toggle" id="c" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Community
             </a>
             <div class="dropdown-menu" aria-labelledby="c">
@@ -49,13 +49,15 @@
               <hr>
             </div>
           </li>
-          <li class="nav-item mx-md-2 text-white">
+          <li class="nav-item text-white">
             <a href="#" class="nav-link">Pricing</a>
           </li>
-          <li class="nav-item ml-md-5">
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item ">
             <a href="#" class="nav-link">Docs</a>
           </li>
-          <li class="nav-item text-white ml-md-4 dropdown">
+          <li class="nav-item text-white  dropdown">
             <a href="#" class="nav-link dropdown-toggle" id="f" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support
             </a>
             <div class="dropdown-menu" aria-labelledby="f">
@@ -64,54 +66,115 @@
               <a href="#" class="dropdown-item">Network Status</a>
             </div>
           </li>
-          <li class="nav-item ml-md-4">
+          <li class="nav-item ">
             <a href="#" class="nav-link">Login
             </a>
           </li>
-          <li class="nav-item ml-md-4">
+          <li class="nav-item ">
             <button class="btn btn-outline-light" type="submit">Sign Up</button>
           </li>
         </ul>
       </div>
     </nav>
-
-    <div class="conatiner-fluid ">
-      <div class="jumbotron-fluid " >
-        <div class="row bg-primary" >
-          <div class=" col-md-6 mx-sm-5">
-            <h3 class="text-white  my-sm-5"><span class="fa fa-tint mx-md-4"></span>Droplets</h3>
-            <h1 class=" ml-md-3 text-white font">Simplicity <br>at scale.</h1>
-            <h5 class=" text-white  my-md-5 ml-md-3">Our cloud computing platform was built with simplicity at<br> the forefront, so managing infrastructure is easy, whether<br> your business is running one virtual machine or ten<br> thousand. DigitalOcean gets out of your way so teams can<br> build, deploy, and scale cloud applications faster and<br> more efficiently.
-            </h5>
-          </div>
-          <div class="col-md-4  my-md-5">
-            <div class="card">
-              <div class="card-body  ">
-                <h3 class="card-title font my-md-2  text-center">Sign up and deploy <br>your app in seconds.</h3>
-                <div class="my-md-4"><input type="email" class="form-control my-md-2" placeholder="Email Adress" id="usr"></div>
-                <div class="my-md-4"><input type="password" class="form-control my-md-2" placeholder="Password" id="usr"></div>
-                <div class="my-md-4"><button type="submit" name="button" class="btn btn-primary btn-block">Create Account</button></div>
-                <div class="text-center"><small >By signing up you agree to the <a href="#">Terms of Service.</a></small></div>
+    <main>
+      <div class="conatiner ">
+        <div class="jumbotron-fluid" >
+          <div class="row bg-primary" >
+            <div class=" col-md-6 mx-md-5 my-md-5">
+              <h3 class="text-white  "><span class="fa fa-tint "></span>Droplets</h3>
+              <h1 class="  text-white font">Simplicity <br>at scale.</h1>
+              <h5 class=" text-white  ">Our cloud computing platform was built with simplicity at<br> the forefront, so managing infrastructure is easy, whether<br> your business is running one virtual machine or ten<br> thousand. DigitalOcean gets out of your way so teams can<br> build, deploy, and scale cloud applications faster and<br> more efficiently.
+              </h5>
+            </div>
+            <div class="col-md-4  my-md-5">
+              <div class="card">
+                <div class="card-body  ">
+                  <h3 class="card-title font my-md-2  text-center">Sign up and deploy <br>your app in seconds.</h3>
+                  <form class="" action="index.html" method="post">
+                    <div class="my-md-4"><input type="email" class="form-control my-md-2" placeholder="Email Adress" id="usr" required></div>
+                    <div class="my-md-4"><input type="password" class="form-control my-md-2" placeholder="Password" id="usr" required></div>
+                    <div class="my-md-4"><button href="#" type="submit" name="button" class="btn btn-primary btn-block">Create Account</button></div>
+                    <div class="text-center"><small >By signing up you agree to the <a href="#">Terms of Service.</a></small></div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-       <div class="row justify-content-center my-md-5">
-
-           <img src="./images/image6.png" class="image_size mx-sm-4" alt="docker">
-          <img src="./images/image7.png"class="image_size mx-sm-4" alt="gitlab">
-          <img src="./images/image8.png"class="image_size mx-sm-4" alt="slack">
-             <img src="./images/image9.png"class="image_size mx-sm-4" alt="hashicorp">
-             <img src="./images/image10.png"class="image_size mx-sm-4" alt="wework">
-             <img src="./images/image11.png"class="image_size mx-sm-3" alt="splunk">
+          <div class="row my-md-5 ">
 
 
+              <div class="">
 
+              </div>
+              <div class="col-md-2">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/docker-bab60eeb.png" class="img-fluid" alt="gg">
+              </div>
+              <div class="col-md-2">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/gitlab-b48da934.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/slack-191d42a1.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/hashicorp-e2d4a485.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-2">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/wework-c156e5fb.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-md-2 ">
+                <img src="https://www.digitalocean.com/assets/media/homepage/v4/logos/splunk-06b17d75.png" class="img-fluid" alt="">
+              </div>
+            
+          </div>
+          <h3 class="text-center my-md-5">An infrastructure experience development teams love<br> with the features your business needs</h3>
+          <div class="row">
+            <div class="col-md-2 ">
 
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-title">
+                  <img src="" class="card-img-top" alt="">
+                  <h6 class="text-center my-md-5">Build better app  faster</h6>
+                  <div class="card-body">
+                    <h6 class="text-muted">Because Droplets are resizable, SSD-based virtual machines, you can deploy what resources you need now and upgrade at any time down the road.</h6>
+                    <a href="#"><small>Learn more about our product</small?</a>
+                  </div>
+                </div>
 
-       </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-title">
+                  <img src="" class="card-img-top" alt="">
+                  <h6 class="text-center my-md-5">Build better app  faster</h6>
+                  <div class="card-body">
+                    <h6 class="text-muted">Because Droplets are resizable, SSD-based virtual machines, you can deploy what resources you need now and upgrade at any time down the road.</h6>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <div class="card-title">
+                  <img src="" class="card-img-top" alt="">
+                  <h6 class="text-center my-md-5">Build better app  faster</h6>
+                  <div class="card-body">
+                    <h6 class="text-muted">Because Droplets are resizable, SSD-based virtual machines, you can deploy what resources you need now and upgrade at any time down the road.</h6>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
       </div>
-    </div>
+      </div>
+    </main>
+
     <!-- link for Bootstrap javascript core -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>

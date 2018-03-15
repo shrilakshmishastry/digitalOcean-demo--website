@@ -5,7 +5,21 @@
 .font{
   font-family: 'Bowlby One SC', cursive;
 }
-.image_size{
-  width: 100px;
-  height: 100px;
+.brand-image{
+  width: 50px;
+  height: 50px;
+}
+
+.image13{
+  width:auto;
+  height: 300px;
+}
+.image15{
+  height: 300px;
+}
+.image16{
+  height: 370px;
+}
+.background{
+  background-color: rgb(21, 205, 114);
 }
