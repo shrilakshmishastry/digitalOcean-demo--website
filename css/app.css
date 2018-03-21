@@ -1,10 +1,50 @@
+.jumbotron{
+  background-color: blue;
+}
+@media screen and  (min-width:320px) {
+
+
+}
+@media screen and  (min-width:321px) and (max-width:480px) {
+
+
+}
+@media screen and  (min-width:481px)  and (max-width:768px){
+
+
+}
+@media screen and  (min-width:768px) and (max-width:1024px) {
+  /* .navbar-collapse.collapse {
+    display: block;
+    position: relative;!important; */
+}
+@media screen and  (min-width:1224px) {
+  .jumbotron{
+    background-color: blue;
+    background-image:url('../images/hero-image.svg');
+    height:536px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 0px;
+  }
+
+
+}
+
+
+.hero-custom{
+  border-radius:0;
+  height:536px;
+   background: linear-gradient(-45deg,#030021,#040023 2%,#0b0539 24%,#0e0741 38%,#2c1575 71%,#2d308f) 50% no-repeat,linear-gradient(-180deg,rgba(0,8,255,.1),rgba(0,8,255,0)) 50% no-repeat;
+}
+.container-fluid{
+  padding-left:0; padding-right:0;
+}
 .imagesize{
   width: 50px;
   height: 50px;
 }
-.font{
-  font-family: 'Bowlby One SC', cursive;
-}
+
 .brand-image{
   width: 50px;
   height: 50px;
@@ -29,4 +69,15 @@
 .image{
   height: 20px;
   width: 16px;
+}
+.container-hero-custom{
+
+  background-color:blue;
+
+}
+
+.header-hero-custom{
+  background-color:blue;
+  padding-top: 90px;
+  height:600px;
 }
