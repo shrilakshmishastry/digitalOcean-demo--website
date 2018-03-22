@@ -71,8 +71,9 @@
   width: 16px;
 }
 .container-hero-custom{
-
-  background-color:blue;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color:blue;
 
 }
 
@@ -80,4 +81,15 @@
   background-color:blue;
   padding-top: 90px;
   height:600px;
+}
+.image-custom{
+  background-size:100% 100%;
+}
+.col-custom{
+  margin-left: 60px;
+  padding-right: 100px;
+}
+.container-custom{
+  margin-top: 90px;
+  margin-bottom: 32px;
 }
