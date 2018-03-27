@@ -132,3 +132,14 @@
   margin-top: 20px;
   margin-left: 0px;
 }
+#i::after{
+  content:"|";
+
+  margin:10px;
+}
+a:hover{
+  text-decoration: none;
+}
+#s.hover{
+  display: none;
+}
